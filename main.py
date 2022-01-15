@@ -4,6 +4,7 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import pickle
+import sklearn
 
 #downloading english stopwords from nltk
 #nltk.download('stopwords')
