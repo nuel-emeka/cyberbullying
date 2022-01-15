@@ -1,5 +1,5 @@
 fastapi==0.71.0
 uvicorn==0.17.0
 nltk==3.6.7
-pickle==4.0
+pickle
 gunicorn==20.1.0
