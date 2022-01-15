@@ -5,6 +5,8 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import pickle
 from sklearn.svm import SVC
+from sklearn.feature_extraction.text import CountVectorizer
+import pandas as pd
 
 #downloading english stopwords from nltk
 #nltk.download('stopwords')
@@ -29,7 +31,7 @@ def sent_processor(text):
         nltk.stopwords.words('english')
 
     Parameter:
-        input: strin {text}
+        input: string {text}
     """
     #scrap away all non alphabetic character from the text
     sent = re.sub('[^a-zA-Z]', ' ', text)
