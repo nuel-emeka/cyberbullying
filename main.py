@@ -6,7 +6,7 @@ from nltk.stem import PorterStemmer
 import pickle
 
 #downloading english stopwords from nltk
-nltk.download('stopwords')
+#nltk.download('stopwords')
 
 #initializing PorterStemmer
 ps = PorterStemmer()
